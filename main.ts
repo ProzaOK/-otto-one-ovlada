@@ -1,8 +1,3 @@
-radio.onReceivedNumber(function (receivedNumber) {
-    basic.showString("ultrazvuk cm")
-    basic.pause(500)
-    basic.showNumber(receivedNumber)
-})
 WSJoyStick.onKey(KEY.A, function () {
     let náklon = 0
     basic.showNumber(náklon)
